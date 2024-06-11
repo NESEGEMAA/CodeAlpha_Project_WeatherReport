@@ -1,0 +1,29 @@
+* {
+    font-family: 'Agbalumo';
+}
+body {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #4caf50;
+  padding: 20px;
+  color: white;
+}
+#websiteLogo {
+  max-width: 100px;
+}
+form {
+  margin-top: 10px;
+}
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+#currentWeather {
+  font-family: 'Courier New', monospace;
+  margin-top: 20px;
+  font-size: 24px;
+}

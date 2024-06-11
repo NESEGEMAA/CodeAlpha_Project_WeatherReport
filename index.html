@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>   
+    <link href='https://fonts.googleapis.com/css?family=Agbalumo' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img id="websiteLogo" src="img/logo.png" alt="Website Logo">
+        <form id="citySelection">
+            <select id="citySelect">
+                <option value="" disabled selected>Select your city</option>
+                <!-- Options will be added dynamically by JavaScript -->
+            </select>
+        </form>
+    </header>
+    <section>
+        <p>
+            This website allows you to check the weather for the top 10 most densily populated cities in the world!!
+        </p>
+        <p id="currentWeather">
+            <!-- Weather info will be displayed here -->
+        </p>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
